@@ -11,8 +11,8 @@ export default function ContactoD({ onFormSubmit }) {
 
 		emailjs
 			.sendForm(
-				'service_fdafu5n',
-				'template_65wef1p',
+				'service_c182ooh', //sabri servicio
+				'template_65wef1p', //template diego
 				form.current,
 				'_EurKF-FOetxoo0Kp'
 			)

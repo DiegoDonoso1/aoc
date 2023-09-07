@@ -11,7 +11,7 @@ export default function Contacto({ onFormSubmit }) {
 
 		emailjs
 			.sendForm(
-				'service_c182ooh',
+				'service_fdafu5n',
 				'template_cfqt5mt',
 				form.current,
 				'_EurKF-FOetxoo0Kp'
