@@ -1,11 +1,11 @@
 // AbrazoVirtual.js
 import { useEffect, useState } from 'react';
 import Loading from '../components/Loading';
-import Contacto from '../components/contacto/Contacto';
 import abrazo from '../assets/img/penguin.svg';
 import carta from '../assets/img/carta.svg';
+import ContactoD from '../components/contacto/ContactoD';
 
-const AbrazoVirtual = () => {
+const AbrazoVirtualD = () => {
 	const [abrazoEnviado, setAbrazoEnviado] = useState(false);
 
 	// Función que se llama cuando se completa el envío del formulario
@@ -24,6 +24,7 @@ const AbrazoVirtual = () => {
 	return (
 		<main className="flex flex-col md:flex-row items-center justify-center mt-0 md:mt-24">
 			<div className="md:w-1/2 p-4 flex flex-col items-center justify-center">
+				<h2>Diego</h2>
 				<img src={carta} alt="carta_icon" className="w-24 " />
 				<h2 className="text-center mb-10 font-semibold text-xl ">
 					Hay momentos donde solo se necesita un abrazo y algún mensaje, este
@@ -49,11 +50,11 @@ const AbrazoVirtual = () => {
 						</h2>
 					</>
 				) : (
-					<Contacto onFormSubmit={handleContactFormSubmit} />
+					<ContactoD onFormSubmit={handleContactFormSubmit} />
 				)}
 			</div>
 		</main>
 	);
 };
 
-export default AbrazoVirtual;
+export default AbrazoVirtualD;

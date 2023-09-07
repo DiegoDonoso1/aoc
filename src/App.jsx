@@ -7,6 +7,7 @@ import Game from './pages/GamePage';
 import AbrazoVirtual from './pages/AbrazoPage';
 import Footer from './components/Footer';
 import Navbar from './components/Navbar';
+import AbrazoVirtualD from './pages/AbrazoPageDiego';
 
 function App() {
 	return (
@@ -19,6 +20,7 @@ function App() {
 					<Route path="/azar" element={<Coin />} />
 					<Route path="/juego" element={<Game />} />
 					<Route path="/abrazo" element={<AbrazoVirtual />} />
+					<Route path="/abrazoD" element={<AbrazoVirtualD />} />
 				</Routes>
 
 				<Footer />
