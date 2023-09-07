@@ -7,7 +7,7 @@ import '../App.css';
 function Game() {
 	const [montoInicial, setMontoInicial] = useState('');
 	const [monto, setMonto] = useState(0);
-	const [saldo, setSaldo] = useState(1000);
+	const [saldo, setSaldo] = useState(10000);
 	const [multiplicador, setMultiplicador] = useState(0);
 	const [jugando, setJugando] = useState(false);
 	const [juegoTerminado, setJuegoTerminado] = useState(false);

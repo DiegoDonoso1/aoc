@@ -64,7 +64,7 @@ body{
   
   /* Aplicar la animación al avión cuando el juego está en curso */
   .animate-subirAvion {
-    animation: subirAvion 5s linear; /* Ajusta la duración según tus necesidades */
+    animation: subirAvion 3s linear; /* Ajusta la duración según tus necesidades */
   }
 
 
