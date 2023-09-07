@@ -1,11 +1,12 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
-import Navbar from './components/navbar';
+
 import Coin from './components/Coin';
 import HomePage from './pages/HomePage';
 import Game from './pages/GamePage';
 import AbrazoVirtual from './pages/AbrazoPage';
 import Footer from './components/Footer';
+import Navbar from './components/Navbar';
 
 function App() {
 	return (
